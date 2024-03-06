@@ -1,0 +1,49 @@
+/* Make the image to responsive */
+.image {
+    width: 100%;
+    /*height: auto;*/
+    /*position: relative;*/
+    /*border: var(--border);*/
+    border-radius: 25px;
+    /*display: block;*/
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 15rem);
+    gap: 1.5rem;
+    /*align-items: flex-start;*/
+}
+
+/* row1, row2, row3 needed to position the overlay. Adjust the width as needed */
+.row1, .row2, .row3 {
+    position: relative;
+    /*width: 100%;*/
+    /*max-width: 300px;*/
+}
+
+/* The overlay effect - lays on top of the row1, row2, row3 and over the image */
+.overlay {
+    position: absolute;
+    bottom: 0;
+    /*background: rgb(0, 0, 0);*/
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    /*width: 100%;*/
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 15px;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+/* When you mouse over the row1, row2, row3, fade in the overlay title */
+.row1:hover .overlay, .row2:hover .overlay, .row3:hover .overlay {
+    opacity: 1;
+}
+
+h5 {
+    text-align: center;
+}
+
+

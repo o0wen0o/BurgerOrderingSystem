@@ -1,0 +1,142 @@
+#HomepageSlider
+{
+    position: relative !important;
+    width: 100%;
+    max-height: auto;
+    margin: 0 auto;
+}
+
+.carousel-control-prev,
+.carousel-control-next
+{
+    width: 4% !important; /*to override the bootstrap css*/
+    margin: 0px auto;
+    color: black !important;
+}
+
+.carousel-control-prev-icon
+{
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'><path d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z' stroke='white' stroke-width='1.5'/></svg>") !important;
+    margin: auto;
+    
+} 
+
+.carousel-control-next-icon
+{
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'><path d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z' stroke='white' stroke-width='1.5'/></svg>") !important;
+    margin: auto;
+    
+}
+
+.carousel-inner img,
+.carousel-item img
+{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    min-height: 380px;
+    max-height: 380px;
+    display: block;
+    margin: auto;
+    border-radius: 2rem;
+    
+}
+
+.container-fluid 
+{
+    position: relative !important;
+    width: 100%;
+    max-height: auto;
+    padding: 0px 80px;
+    margin: 0 auto;
+}
+
+.row1 img,
+.row2 img 
+{
+    width: 100%;
+    max-height: 380px;
+    border-radius: 2rem;
+}
+
+.row, .row1, .row2 
+{
+    position: relative;
+}
+
+.overlay 
+{
+    position: absolute !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-family: Flame, "Cooper Black", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    margin: 0 auto;
+}
+
+.overlay h3
+{
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.overlay h4
+{
+    font-size: 28px;
+}
+
+.overlay h5
+{
+    font-size: 30px;
+}
+
+.overlay h6
+{
+    font-size: 27px;  
+}
+
+.row1 button 
+{
+    color: white;
+    font-size: 24px;
+    width: 50%;
+    height: 10%;
+    background-color: rgba(255, 29, 29, 0.896);
+    border-radius: 50rem;
+    border-color: white;
+    border-width: 3px;
+}
+
+.row2 button
+{
+    width: 180px;
+    height: 60px;
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    margin: 5px;
+} 
+
+#downloadGooglePlay
+{
+    background-image: url("../images/homepage/GooglePlayIcon.png");
+}
+
+#downloadAppStore
+{
+    background-image: url("../images/homepage/AppStoreIcon.png");
+}
+
+#downloadHuawei
+{
+    width: 225px;
+    background-image: url("../images/homepage/HuaweiIcon.png");
+}
+
+

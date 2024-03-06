@@ -1,0 +1,33 @@
+.sticky-top {
+    top: 75px;;
+}
+
+.nav-underline {
+    --bs-navbar-color: black;
+    --bs-navbar-hover-color: red;
+}
+
+/* active status can not reserved when page redirect */
+/*.nav-underline .nav-pills a:focus {*/
+/*    --bs-link-color: red;*/
+/*}*/
+
+.nav-pills {
+    --bs-nav-pills-link-active-bg: red;
+    --bs-link-color: black;
+}
+
+.nav-pills a:hover {
+    background-color: red;
+    color: white;
+}
+
+.table-hover {
+    --bs-table-hover-bg: #ffebeb;
+}
+
+@media (max-width: 1050px) {
+    #offcanvasBtn {
+        display: none;
+    }
+}
